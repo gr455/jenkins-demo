@@ -3,4 +3,5 @@ from inputs import x, y
 def add(x, y):
 	return x + y
 
-print("Sum: ", add(x, y))
+if __name__ == "__main__":
+	print("Sum: ", add(x, y))
